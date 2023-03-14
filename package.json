@@ -1,0 +1,36 @@
+{
+  "name": "next-ssr-fallback",
+  "version": "1.0.0",
+  "description": "Make it easier for next apps to support ssr fallback to csr",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/crazyurus/next-ssr-fallback.git"
+  },
+  "keywords": [
+    "next.js",
+    "ssr"
+  ],
+  "author": "Crazy Urus <crazyurus@vip.qq.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/crazyurus/next-ssr-fallback",
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.28",
+    "next": "^13.0.0",
+    "react": "^18.2.0",
+    "typescript": "^4.9.5"
+  },
+  "peerDependencies": {
+    "next": ">=12.0.0",
+    "react": ">=16.0.0"
+  },
+  "files": [
+    "dist/index.js",
+    "dist/index.d.ts"
+  ],
+  "packageManager": "pnpm@7.29.0"
+}
