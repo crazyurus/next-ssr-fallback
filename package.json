@@ -1,7 +1,7 @@
 {
   "name": "next-ssr-fallback",
   "version": "1.0.0",
-  "description": "Make it easier for next apps to support ssr fallback to csr",
+  "description": "Make it easier for Next.js app to support SSR fallback to CSR",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "repository": {
